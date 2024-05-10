@@ -1,0 +1,197 @@
+{
+  "info": {
+    "name": "Vireak Sok",
+    "title": "Product Designer",
+    "headline": "Create digital design solution to emerge your business and boost revenue growth by solving your users' problems",
+    "story": "My main focus these days is building accessible user interfaces for our customers at Klaviyo. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+  },
+  "latest_project":[
+    {
+      "img": "/project1.webp",
+      "alt": "alt text to image",
+      "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
+      "name": "Uni Search", 
+      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+    },
+    {
+      "img": "/project2.webp",
+      "alt": "alt text to image",
+      "url": "/",
+      "name": "Website Redesign",
+      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+    }, 
+    {
+      "img": "/project3.webp",
+      "alt": "alt text to image",
+      "url": "https://medium.com/@vireaksok/tour-assistant-app-ux-ui-case-study-35f0d8b6be4",
+      "name": "Locol App",
+      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+    }
+  ],
+  "projects":[
+    {
+      "name": "Uni Searcher",
+      "client": "SpringBoard4Education",
+      "types": ["Web App", "Real Life", "Minimalist", "Education"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "SpringBoard4Education Website",
+      "client": "SpringBoard4Education",
+      "types": ["Website", "Real Life", "Professional", "Education"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Paramedix",
+      "client": "Kirirom Digital",
+      "types": ["Mobile App", "Real Life", "Illustration", "Healthcare"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "CampusUK",
+      "client": "SpringBoard4Education",
+      "types": ["Website", "Real Life", "Modern", "Education"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "SpringBoard International Institute",
+      "client": "SpringBoard4Education",
+      "types": ["Website", "Real Life", "Minimalist", "Landing Page"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Kirirom Digital Cambodia Website",
+      "client": "Kirirom Digital",
+      "types": ["Website", "Real", "Playfull", "IT Service"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Locol",
+      "client": "N/A",
+      "types": ["Mobile App", "Concept", "Modern", "Daily Use"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Napt Tour",
+      "client": "N/A",
+      "types": ["Mobile App", "Concept", "Imagery", "Travel"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Fintech Watch App",
+      "client": "N/A",
+      "types": ["Wearable", "Concept", "Modern", "Fintech"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "QuickPay",
+      "client": "N/A",
+      "types": ["Mobile App", "Concept", "Flat", "Fintech"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Hakse Website Redesign",
+      "client": "N/A",
+      "types": ["Website", "Concept", "Imagery", "E-commerce"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "Computer Shop Web App",
+      "client": "N/A",
+      "types": ["Website", "Concept", "Modern", "PWA"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    },
+    {
+      "name": "The Pizza Company Website Redesign",
+      "client": "N/A",
+      "types": ["Website", "Concept", "Flat", "Food & Drink"],
+      "url": "https://portfolio-vireak-sok.vercel.app/work"
+    }
+  ],
+  "project_types":[
+    "Mobile App", "Real Life", "Concept", "Web App", "Website", "Dashboard", "Imagery", "Illustration", "Flat", "Glassmorphism", "Neumorphism", "3D", "Minimalist", "Modern", "Playfull", "Professional", "Fancy", "Animation Rich", "Typography", "Micro Interaction", "Responsive"
+  ],
+  "experiences":[
+    {
+      "role": "Product Designer",
+      "duration": "January 2024 - Present",
+      "company": "SpringBoard4Education",
+      "company_url": "https://springboard4education.com",
+      "description": "Led several impactful design in EdTech, including the design of dynamic school landing page websites and an innovative university search web app with intuitive interfaces that streamlined information accessibility and enhanced user engagement."
+    },
+    {
+      "role": "UX/UI Designer",
+      "duration": "January 2023 - December 2023",
+      "company": "Kirirom Digital Cambodia",
+      "company_url": "https://kirirom-digital.com.kh",
+      "description": "Crafted intuitive interfaces, conducted user research, and implemented data-driven design decisions to deliver seamless user experiences, resulting in increased user satisfaction and improved business outcomes."
+    },
+    {
+      "role": "UX/UI and Graphic Designer",
+      "duration": "January 2019 - June 2022",
+      "company": "Napt (Start-up)",
+      "company_url": "",
+      "description": "Conducted customer research to understand the users' requirements and created customers persona to ensure the design is equitable and enjoyable. Used Figma as main wireframe and prototype tool and also Adobe softwares for graphic design."
+    },
+    {
+      "role": "Digital Marketer",
+      "duration": "June 2020 - June 2021",
+      "company": "TheMentor",
+      "company_url": "https://www.facebook.com/TheMentorOfficial/",
+      "description": "Responsible for Facebook page operation with over 2k organic followers and assisted the web development team to ensure the usability. Joined lots of meeting with team lead and client to discuss what the audiences need to improve the service."
+    },
+    {
+      "role": "Graphic Designer",
+      "duration": "June 2019 - June 2020",
+      "company": "Digi Green Kyoudai",
+      "company_url": "",
+      "description": "Collaborated with management team to adjust the embedded messages for audiences and planned, scripted, and edited promotional videos in various topics. Mainly used Illustrator to design promotional posters and Premeire Pro for video editing."
+    }
+  ],
+  "highlights": [
+    {
+      "type": "award",
+      "date": "September 2019",
+      "title": "3rd Price Winner",
+      "issuer": "EnergyLab Hackathon"
+    },
+    {
+      "type": "award",
+      "date": "June 2021",
+      "title": "3rd Price Winner",
+      "issuer": "Reverse Innovation"
+    },
+    {
+      "type": "education",
+      "date": "November 2022",
+      "title": "Software Engineering",
+      "issuer": "Kirirom Institute of Technology"
+    }
+  ],
+  "contacts":[
+      {
+        "type": "facebook",
+        "url": "https://www.facebook.com/sokvireak72"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/vireaksok"
+      },
+      {
+        "type": "linkedIn",
+        "url": "https://www.linkedin.com/in/vireaksok/"
+      },
+      {
+        "type": "medium",
+        "url": "https://medium.com/@vireaksok"
+      },
+      {
+        "type": "behance",
+        "url": "https://www.behance.net/sokvireak"
+      },
+      {
+        "type": "dribbble",
+        "url": "https://dribbble.com/vireaksok"
+      }
+  ]
+}
