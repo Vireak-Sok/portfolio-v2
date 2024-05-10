@@ -1,3 +1,4 @@
+import CustomNav from '../components/CustomNav'
 import BackToTopBtn from '../components/buttons/BackToTopBtn'
 import CustomBackToHome from '../components/buttons/CustomBackToHome'
 import ListItem from './ListItem'
@@ -9,6 +10,7 @@ const projects = async () => {
 
   return (
     <main>
+      <CustomNav/>
       <BackToTopBtn/>
       <section className="all-works w-full py-8 px-4 sm:p-8 lg:p-16 flex flex-col items-start justify-center gap-4 sm:gap-8 lg:gap-16">
         <div>
