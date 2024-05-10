@@ -1,9 +1,9 @@
 'use client'
 import { Icon } from '@iconify/react'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const ThemeToggler = () => {
-
+  const themeOptions = useRef(null)
   const [theme, setTheme] = useState("system")
   const [isSystem, setIsSystem] = useState(true)
 
@@ -35,11 +35,11 @@ const ThemeToggler = () => {
       setTheme(e)
       setIsSystem(false)
     }
-    document.getElementById("themes-options").classList.toggle("hidden")
+    themeOptions.current.classList.toggle("hidden")
   }
 
   const openTheme = () => {
-    document.getElementById("themes-options").classList.toggle("hidden")
+    themeOptions.current.classList.toggle("hidden")
   }
 
   return (
@@ -50,7 +50,7 @@ const ThemeToggler = () => {
         </button>
       </div>
 
-      <div id='themes-options' className='hidden themes-options absolute top-full rounded-sm overflow-hidden mt-4'>
+      <div id='themes-options' ref={themeOptions} className='hidden themes-options absolute top-full rounded-sm overflow-hidden mt-4'>
         <button className={`btn btn-neutral rounded-none w-full text-xs h-4 border-0 dark:text-blue-400 text-blue-700 transition-all bg-slate-300 dark:bg-slate-600 hover:dark:bg-slate-700 hover:bg-slate-200 ${theme==='light' ? 'font-semibold' : 'font-light'}`} onClick={() => handleChange('light')} aria-label='change to light theme'>Light</button>
         <button className={`btn btn-neutral rounded-none w-full text-xs h-4 border-0 dark:text-blue-400 text-blue-700 transition-all bg-slate-300 dark:bg-slate-600 hover:dark:bg-slate-700 hover:bg-slate-200 ${theme==='dark' ? 'font-semibold' : 'font-light'}`} onClick={() => handleChange('dark')}  aria-label='change to dark theme'>Dark</button>
         <button className={`btn btn-neutral rounded-none w-full text-xs h-4 border-0 dark:text-blue-400 text-blue-700 transition-all bg-slate-300 dark:bg-slate-600 hover:dark:bg-slate-700 hover:bg-slate-200 ${theme==='system' ? 'font-semibold' : 'font-light'}`} onClick={() => handleChange('system')}  aria-label='change to system based theme'>System</button>
