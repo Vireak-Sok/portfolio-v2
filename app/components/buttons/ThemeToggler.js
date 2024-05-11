@@ -1,51 +1,78 @@
 'use client'
 import { Icon } from '@iconify/react'
 import React, { useEffect, useRef, useState } from 'react'
+import { usePathname } from 'next/navigation';
+
+//custom sessionStorage hook
+export const UseSessionStorage = (key, initialValue) => {
+    const [value, setValue] = useState(() => {
+        const storedValue = sessionStorage.getItem(key);
+        return storedValue ? JSON.parse(storedValue) : initialValue;
+    });
+
+    useEffect(() => {
+        sessionStorage.setItem(key, JSON.stringify(value));
+    }, [key, value]);
+
+    return [value, setValue];
+};
 
 const ThemeToggler = () => {
   const themeOptions = useRef(null)
-  const [theme, setTheme] = useState("system")
-  const [isSystem, setIsSystem] = useState(true)
+  const [sessionStorageValue, setSessionStorageValue] = UseSessionStorage('theme', '');
+  const [theme, setTheme] = useState(sessionStorageValue)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  useEffect(() => {
-    if(isSystem){
-      if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-        document.documentElement.classList.remove("light")
-        document.documentElement.classList.add("dark")
+  useEffect(()=>{
+    if(window!=undefined){
+      if(theme==""){
+        if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+          document.documentElement.classList.add("dark")
+        }else{
+          document.documentElement.classList.remove("dark")
+        }
       }else{
-        document.documentElement.classList.remove("dark")
-        document.documentElement.classList.add("light")
-      }
-    }else{
-      if(theme=='dark'){
-        document.documentElement.classList.remove("light")
-        document.documentElement.classList.add("dark")
-      }else{
-        document.documentElement.classList.remove("dark")
-        document.documentElement.classList.add("light")
+        if(theme=='dark'){
+          document.documentElement.classList.add("dark")
+        }else{
+          document.documentElement.classList.remove("dark")
+        }
       }
     }
-  }, [isSystem, theme])
 
-  const handleChange = (e) => {
-    if(e==="system") {
-      setTheme(e)
-      setIsSystem(true)
-    }else{
-      setTheme(e)
-      setIsSystem(false)
+    // click outside element to close
+    const handleOutSideClick = (event) => {
+      if (!themeOptions.current?.contains(event.target)) {
+        themeOptions.current.classList.toggle("hidden")
+        setIsMenuOpen(!isMenuOpen)
+      }
+    };
+    
+    if(isMenuOpen){
+      window.addEventListener("mousedown", handleOutSideClick);
+      return () => {
+        window.removeEventListener("mousedown", handleOutSideClick);
+      };
     }
+
+  },[isMenuOpen, theme, themeOptions])
+
+  const handleChange = (mode) => {
+    setSessionStorageValue(mode=='dark'?'dark':mode=='light'?'light':'')
+    setTheme(mode=='dark'?'dark':mode=='light'?'light':'')
     themeOptions.current.classList.toggle("hidden")
+    setIsMenuOpen(!isMenuOpen)
   }
 
   const openTheme = () => {
     themeOptions.current.classList.toggle("hidden")
+    setIsMenuOpen(!isMenuOpen)
   }
 
   return (
     <div className='flex flex-col gap-2 items-end relative w-16'>
       <div className="lg:tooltip lg:tooltip-bottom capitalize before:text-xs after:hidden before:text-gray-600 before:dark:text-gray-300 before:dark:bg-slate-700 before:bg-slate-200 before:rounded-sm" data-tip="Change Theme">
-        <button id='control-btn' className='btn btn-ghost focus:ring rounded-sm group' onClick={() => openTheme()} aria-label='change website theme'>
+        <button id='control-btn' className={`${isMenuOpen ? 'btn-disabled' : 'btn-ghost'} btn focus:ring rounded-sm group`} onClick={() => openTheme()} aria-label='change website theme'>
           <Icon icon={theme==="system"? "ph:circle-half-thin" : theme==="dark" ? "ph:moon-stars-thin" : "ph:sun-thin"} className='w-6 h-6 group-hover:scale-125 transition-all theme-tx'/>
         </button>
       </div>
