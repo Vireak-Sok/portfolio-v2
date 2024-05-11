@@ -8,6 +8,7 @@ const ThemeToggler = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(()=>{
+    sessionStorage.setItem("theme", theme)
     setTheme(sessionStorage.getItem("theme"))
     if(window!=undefined){
       if(theme==""){
