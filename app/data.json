@@ -11,21 +11,21 @@
       "alt": "alt text to image",
       "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
       "name": "Uni Search", 
-      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+      "desc": "An application for wearable device users that are interested in financial market to get real time update on stock price and exchange rate"
     },
     {
       "img": "/project2.webp",
       "alt": "alt text to image",
       "url": "/",
       "name": "Website Redesign",
-      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+      "desc": "A landing page for the target clients of Kirirom Digital Cambodia to virtualize the services that the company provides."
     }, 
     {
       "img": "/project3.webp",
-      "alt": "alt text to image",
+      "alt": "Project number 3 thumbnail",
       "url": "https://medium.com/@vireaksok/tour-assistant-app-ux-ui-case-study-35f0d8b6be4",
-      "name": "Locol App",
-      "desc": "This is the short description of the project that give some introduction of the project that I completed."
+      "name": "Paramedix",
+      "desc": "A mobile app that enable users to find medical services in their areas and make appointment or do online counseling with the specialist"
     }
   ],
   "projects":[

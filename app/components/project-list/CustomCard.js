@@ -11,6 +11,7 @@ const CustomCard = ({image, alt, name, description, url}) => {
         fill
         sizes='100%'
         priority
+        className='bg-slate-100 dark:bg-slate-700'
       />
       <figcaption className='rounded-sm'>
         <p className='image-caption text-xs sm:text-sm'>{description}</p>

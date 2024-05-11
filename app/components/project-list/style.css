@@ -2,7 +2,7 @@ figure.snip1200 {
   position: relative;
   overflow: hidden;
   width: 100%;
-  background: #0f172a;
+  background: #02153f;
   color: #f9fafb;
   text-align: center;
 }
@@ -23,7 +23,7 @@ figure.snip1200 figcaption {
   left: 7%;
   right: 7%;
   bottom: 45%;
-  border: 1px solid #f8fafc;
+  border: 1px solid #3b82f6;
   border-width: 1px 1px 0;
 }
 figure.snip1200 .heading {
@@ -37,9 +37,11 @@ figure.snip1200 .heading {
 figure.snip1200 h2 {
   display: table;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 4px 16px;
   position: relative;
   text-align: center;
+  background-color: #3b82f6;
+  color: #f8fafc;
   width: auto;
   text-transform: uppercase;
   font-weight: 800;
@@ -52,7 +54,7 @@ figure.snip1200 h2:after {
   width: 1000%;
   height: 1px;
   content: '';
-  background: #f8fafc;
+  background: #3b82f6;
   top: 50%;
 }
 figure.snip1200 h2:before {
@@ -68,8 +70,10 @@ figure.snip1200 p {
   position: absolute;
   width: 100%;
   max-height: 70%;
-  overflow: hidden;
+  height: max-content;
+  overflow-y: hidden;
   text-overflow: ellipsis;
+  letter-spacing: 0.5px;
   padding: 0 20px;
   margin: 0;
   opacity: 0;
