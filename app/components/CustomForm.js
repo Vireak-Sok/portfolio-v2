@@ -9,14 +9,14 @@ const notify = ({isSuccess, errorMsg, formRef, btnRef}) => {
     btnRef.current.value = 'Send Message',
     toast.success(
       'Your email was successfully sent!', 
-      { position: 'bottom-right'}
+      { position: 'bottom-center'}
     )
     )
   :(
     btnRef.current.value = 'Send Message',
     toast.error(
       'Email was not sent' + errorMsg,
-      { position: 'bottom-right'}
+      { position: 'bottom-center'}
     ))
 };
 
@@ -54,7 +54,7 @@ const CustomForm = () => {
   };
 
   return (
-    <div className='container-wrapper max-w-2xl w-full sm:mx-auto text-gray-800 dark:text-gray-50 transition-all'>
+    <div className='container-wrapper max-w-2xl w-full sm:mx-auto text-gray-800 dark:text-gray-50 transition-all relative'>
       <form onSubmit={sendEmail} ref={formRef} className='form-wrapper flex flex-col gap-4 lg:gap-6 w-full'>
       <div className='info-input-group flex flex-col sm:flex-row gap-4 lg:gap-6 w-full'>
       <input id='user_name' ref={nameRef} type="text" name="user_name" required placeholder='Full Name *' className='usernname-input p-2 w-full rounded-sm border border-slate-500/30 dark:bg-gray-700 bg-gray-50 transition-all'/>

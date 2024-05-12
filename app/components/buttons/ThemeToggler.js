@@ -8,14 +8,21 @@ const ThemeToggler = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(()=>{
-    sessionStorage.setItem("theme", theme)
-    setTheme(sessionStorage.getItem("theme"))
+    if(sessionStorage.getItem("theme")=="" || sessionStorage.getItem("theme")==null){
+      sessionStorage.setItem("theme", theme)
+      // alert("session empty") 
+    }else{
+      // alert("session not empty")
+      setTheme(sessionStorage.getItem("theme"))
+    }
     if(window!=undefined){
-      if(theme==""){
+      if(theme=="" || theme =="system"){
         if(window.matchMedia('(prefers-color-scheme: dark)').matches){
           document.documentElement.classList.add("dark")
+          setTheme('system')
         }else{
           document.documentElement.classList.remove("dark")
+          setTheme('system')
         }
       }else{
         if(theme=='dark'){
@@ -44,8 +51,9 @@ const ThemeToggler = () => {
   },[isMenuOpen, theme, themeOptions])
 
   const handleChange = (mode) => {
-    sessionStorage.setItem("theme",mode=='dark'?'dark':mode=='light'?'light':'')
-    setTheme(mode=='dark'?'dark':mode=='light'?'light':'')
+    sessionStorage.setItem("theme",mode)
+    setTheme(mode)
+    // alert(theme)
     themeOptions.current.classList.toggle("hidden")
     setIsMenuOpen(!isMenuOpen)
   }

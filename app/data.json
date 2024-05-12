@@ -2,110 +2,86 @@
   "info": {
     "name": "Vireak Sok",
     "title": "Product Designer",
-    "headline": "Create digital design solution to emerge your business and boost revenue growth by solving your users' problems",
-    "story": "My main focus these days is building accessible user interfaces for our customers at Klaviyo. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+    "headline": "Create digital design solution to <strong>emerge your business</strong> and <strong>boost revenue growth</strong> by solving your customers' problems",
+    "story": "I began my university journey in 2018, majoring in Software Engineering, and graduated in 2022. — My love for visual design and passion for problem-solving led me to transition from programming to UX/UI design. Currently, I am focusing on creating minimalistic and modern user interfaces that not only solve user problems but also add value to the business."
   },
   "latest_project":[
     {
       "img": "/project1.webp",
-      "alt": "alt text to image",
-      "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
-      "name": "Uni Search", 
+      "alt": "wearable app design thumbnail",
+      "url": "https://vireaksok.notion.site/Wearable-Fintech-App-20effc7fcddb47d3ac8692252b334951?pvs=4", 
+      "name": "Wearable Fintech App", 
       "desc": "An application for wearable device users that are interested in financial market to get real time update on stock price and exchange rate"
     },
     {
       "img": "/project2.webp",
-      "alt": "alt text to image",
-      "url": "/",
+      "alt": "Website redesign project thumbnail",
+      "url": "https://www.kirirom-digital.com.kh/",
       "name": "Website Redesign",
       "desc": "A landing page for the target clients of Kirirom Digital Cambodia to virtualize the services that the company provides."
     }, 
     {
       "img": "/project3.webp",
-      "alt": "Project number 3 thumbnail",
-      "url": "https://medium.com/@vireaksok/tour-assistant-app-ux-ui-case-study-35f0d8b6be4",
+      "alt": "mobile app design thumbnail",
+      "url": "https://vireaksok.notion.site/Paramedix-Healthcare-Mobile-App-71358b17933c49f98e687144e29f3ea0?pvs=4",
       "name": "Paramedix",
       "desc": "A mobile app that enable users to find medical services in their areas and make appointment or do online counseling with the specialist"
     }
   ],
   "projects":[
     {
-      "name": "Uni Searcher",
-      "client": "SpringBoard4Education",
-      "types": ["Web App", "Real Life", "Minimalist", "Education"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
-      "name": "SpringBoard4Education Website",
-      "client": "SpringBoard4Education",
-      "types": ["Website", "Real Life", "Professional", "Education"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
       "name": "Paramedix",
       "client": "Kirirom Digital",
       "types": ["Mobile App", "Real Life", "Illustration", "Healthcare"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
-      "name": "CampusUK",
-      "client": "SpringBoard4Education",
-      "types": ["Website", "Real Life", "Modern", "Education"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
-      "name": "SpringBoard International Institute",
-      "client": "SpringBoard4Education",
-      "types": ["Website", "Real Life", "Minimalist", "Landing Page"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/Paramedix-Healthcare-Mobile-App-71358b17933c49f98e687144e29f3ea0?pvs=4"
     },
     {
       "name": "Kirirom Digital Cambodia Website",
       "client": "Kirirom Digital",
-      "types": ["Website", "Real", "Playfull", "IT Service"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
-      "name": "Locol",
-      "client": "N/A",
-      "types": ["Mobile App", "Concept", "Modern", "Daily Use"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
-    },
-    {
-      "name": "Napt Tour",
-      "client": "N/A",
-      "types": ["Mobile App", "Concept", "Imagery", "Travel"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "types": ["Website", "Real Life", "Playfull", "IT Service"],
+      "url": "https://www.kirirom-digital.com.kh/"
     },
     {
       "name": "Fintech Watch App",
       "client": "N/A",
       "types": ["Wearable", "Concept", "Modern", "Fintech"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/Wearable-Fintech-App-20effc7fcddb47d3ac8692252b334951?pvs=4"
+    },
+    {
+      "name": "Locol",
+      "client": "N/A",
+      "types": ["Mobile App", "Concept", "Modern", "Daily Use"],
+      "url": "https://vireaksok.notion.site/Locol-Find-a-handyman-faster-f1c308c8bc454f168d416ea2509300ef?pvs=4"
+    },
+    {
+      "name": "Napt Tour",
+      "client": "N/A",
+      "types": ["Mobile App", "Concept", "Imagery", "Travel"],
+      "url": "https://vireaksok.notion.site/Napt-Tour-Your-tour-assistant-56a7cd64bd3741469d3bcce61dab81ae?pvs=4"
     },
     {
       "name": "QuickPay",
       "client": "N/A",
       "types": ["Mobile App", "Concept", "Flat", "Fintech"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/QuikPay-Pay-Quicker-c555f63bcb834587b1f1ff163f7eb291?pvs=4"
     },
     {
       "name": "Hakse Website Redesign",
       "client": "N/A",
       "types": ["Website", "Concept", "Imagery", "E-commerce"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/Hakse-Website-Redesign-Concept-be55c4852b144a61b97670631d43a6d7?pvs=4"
     },
     {
       "name": "Computer Shop Web App",
       "client": "N/A",
       "types": ["Website", "Concept", "Modern", "PWA"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/Computer-shop-website-2fcb039c48a44c7ca7861a0d6fd58242?pvs=4"
     },
     {
       "name": "The Pizza Company Website Redesign",
       "client": "N/A",
       "types": ["Website", "Concept", "Flat", "Food & Drink"],
-      "url": "https://portfolio-vireak-sok.vercel.app/work"
+      "url": "https://vireaksok.notion.site/The-Pizza-Company-Redesign-c8f0ee8e4a864935ae3f4310e0068b15?pvs=4"
     }
   ],
   "project_types":[
@@ -193,5 +169,25 @@
         "type": "dribbble",
         "url": "https://dribbble.com/vireaksok"
       }
+  ],
+  "latest_blogs": [
+    {
+      "img": "/project1.webp",
+      "alt": "alt text to image",
+      "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
+      "name": "Blog 1"
+    },
+    {
+      "img": "/project1.webp",
+      "alt": "alt text to image",
+      "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
+      "name": "Blog 2"
+    },
+    {
+      "img": "/project1.webp",
+      "alt": "alt text to image",
+      "url": "https://medium.com/@vireaksok/ekyc-app-for-customer-onboarding-ux-ui-case-study-cb9aab9c2b9d", 
+      "name": "Blog 3"
+    }
   ]
 }
