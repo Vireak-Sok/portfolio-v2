@@ -5,7 +5,7 @@ import CustomBackToHome from '../components/buttons/CustomBackToHome'
 import Password from './Password'
 import Pin from './Pin'
 
-const security = () => {
+const Security = () => {
   const [type,setType] = useState("password")
 
   function switchType(){
@@ -34,4 +34,4 @@ const security = () => {
   )
 }
 
-export default security
+export default Security
