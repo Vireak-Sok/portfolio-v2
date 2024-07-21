@@ -101,13 +101,13 @@ const Password = () => {
       <div className='security-methods flex flex-col sm:flex-row justify-between items-center'>
         You are going to:
           <div className='radio-group flex gap-6'>
-            <div className="form-control" onClick={()=>{setMethod('encrypt'), sourceRef.current.value = '', resultRef.current.value = ''}}>
+            <div className="form-control" onClick={()=>{setMethod('encrypt'), sourceRef.current.value = '', resultRef.current.value = '', setResult("")}}>
               <label className="label cursor-pointer">
                 <input type="radio" name="radio-10" className="radio checked:bg-red-500" defaultChecked/>
                 <span className="ml-2 label-text">Encrypt</span>
               </label>
             </div>
-            <div className="form-control" onClick={()=>{setMethod('decrypt'), sourceRef.current.value = '', resultRef.current.value = ''}}>
+            <div className="form-control" onClick={()=>{setMethod('decrypt'), sourceRef.current.value = '', resultRef.current.value = '', setResult("")}}>
               <label className="label cursor-pointer">
                 <input type="radio" name="radio-10" className="radio checked:bg-blue-500"/>
                 <span className="ml-2 label-text">Decrypt</span>

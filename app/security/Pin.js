@@ -77,13 +77,13 @@ const Pin = () => {
       <div className='security-methods flex flex-col sm:flex-row justify-between items-center'>
         Choose PIN length:
           <div className='radio-group flex gap-6'>
-            <div className="form-control" onClick={()=>{phone2ndRef.current.value='', setLength(4)}}>
+            <div className="form-control" onClick={()=>{phone2ndRef.current.value='', setResult(""), setLength(4)}}>
               <label className="label cursor-pointer">
                 <input type="radio" name="radio-10" className="radio checked:bg-red-500" defaultChecked/>
                 <span className="ml-2 label-text">4 Digits</span>
               </label>
             </div>
-            <div className="form-control" onClick={()=>{specialRef.current.value='', setLength(6)}}>
+            <div className="form-control" onClick={()=>{specialRef.current.value='', setResult(""), setLength(6)}}>
               <label className="label cursor-pointer">
                 <input type="radio" name="radio-10" className="radio checked:bg-blue-500"/>
                 <span className="ml-2 label-text">6 Digits</span>
