@@ -1,5 +1,4 @@
 import CustomNav from '../components/CustomNav'
-import BackToTopBtn from '../components/buttons/BackToTopBtn'
 import CustomBackToHome from '../components/buttons/CustomBackToHome'
 import ListItem from './ListItem'
 import { promises as fs } from 'fs'
