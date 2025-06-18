@@ -1,9 +1,9 @@
 {
   "info": {
     "name": "Vireak Sok",
-    "title": "Full Stack Designer",
-    "headline": "Create digital design solution to <strong>emerge your business</strong> and <strong>boost revenue growth</strong> by solving your customers' problems",
-    "story": "I began my university journey in 2018, majoring in Software Engineering, and graduated in 2022. — My love for visual design and passion for problem-solving led me to transition from programming to UX/UI design. Currently, I am focusing on creating minimalistic and modern user interfaces that not only solve user problems but also add value to the business."
+    "title": "UX/UI Designer",
+    "headline": "Create digital design solutions that <strong>elevate your business</strong> and <strong>drive revenue growth</strong> by effectively addressing your customers' needs",
+    "story": "I began my university journey in 2018, majoring in Software Engineering, and graduated in 2022. During this time, my passion for visual design and user-centered problem-solving inspired me to <strong>transition from programming to UX/UI design</strong>. Currently, I focus on crafting minimalistic and modern user interfaces that leverage data-driven design principles to effectively address user needs while driving meaningful business value."
   },
   "latest_project":[
     {
@@ -11,21 +11,21 @@
       "alt": "wearable app design thumbnail",
       "url": "https://medium.com/@vireaksok/marketpulse-case-study-9d301bc7b14d", 
       "name": "Wearable Fintech App", 
-      "desc": "An application for wearable device users that are interested in financial market to get real time update on stock price and exchange rate"
+      "desc": "An application for wearable device users interested in the financial market, providing real-time updates on stock prices and exchange rates."
     },
     {
       "img": "/project2.webp",
       "alt": "Website redesign project thumbnail",
       "url": "https://medium.com/@vireaksok/kdc-website-redesign-841b6795835b",
       "name": "Website Redesign",
-      "desc": "A landing page for the target clients of Kirirom Digital Cambodia to virtualize the services that the company provides."
+      "desc": "A landing page designed for target clients of Kirirom Digital Cambodia, showcasing and virtualizing the company’s services"
     }, 
     {
       "img": "/project3.webp",
       "alt": "mobile app design thumbnail",
       "url": "https://vireaksok.notion.site/Paramedix-Healthcare-Mobile-App-71358b17933c49f98e687144e29f3ea0?pvs=4",
       "name": "Paramedix",
-      "desc": "A mobile app that enable users to find medical services in their areas and make appointment or do online counseling with the specialist"
+      "desc": "A mobile app that enables users to find medical services in their area, book appointments, or consult with specialists online"
     }
   ],
   "projects":[
@@ -92,42 +92,42 @@
       "duration": "June 2024 - Present",
       "company": "Hattha Bank",
       "company_url": "https://www.hatthabank.com/",
-      "description": "Initiated design, handles feedbacks, and successfully delivered to development team on several design projects both Mobile and web application - Schedule Payment/Transfer, KHQR Dual Currency, Customer and Partner Management portal, and more."
+      "description": "Initiated designs, handled feedback, and successfully delivered them to the development team for several mobile and web application projects — including Schedule Payment/Transfer, KHQR Dual Currency, Customer and Partner Management Portal, and more."
     },
     {
       "role": "Product Designer",
       "duration": "January 2024 - June 2024",
       "company": "SpringBoard4Education",
       "company_url": "https://www.springboard4education.com",
-      "description": "Led several impactful design in EdTech, including the design of dynamic school landing page websites and an innovative university search web app with intuitive interfaces that streamlined information accessibility and enhanced user engagement."
+      "description": "Led several impactful design projects in EdTech, including dynamic school landing pages and an innovative university search web app with intuitive interfaces that streamlined information accessibility and enhanced user engagement."
     },
     {
       "role": "UX/UI Designer",
       "duration": "January 2023 - December 2023",
       "company": "Kirirom Digital Cambodia",
       "company_url": "https://kirirom-digital.com.kh",
-      "description": "Crafted intuitive interfaces, conducted user research, and implemented data-driven design decisions to deliver seamless user experiences, resulting in increased user satisfaction and improved business outcomes."
+      "description": "Crafted intuitive interfaces, conducted user research, and applied data-driven design decisions to deliver seamless user experiences — leading to increased user satisfaction and improved business outcomes."
     },
     {
       "role": "UX/UI and Graphic Designer",
       "duration": "January 2019 - June 2022",
       "company": "Napt (Start-up)",
       "company_url": "https://startupcambodia.gov.kh/ecosystem/discover/category/startup/83",
-      "description": "Conducted customer research to understand the users' requirements and created customers persona to ensure the design is equitable and enjoyable. Used Figma as main wireframe and prototype tool and also Adobe softwares for graphic design."
+      "description": "Conducted customer research to understand user needs and created customer personas to ensure the design was equitable and enjoyable. Used Figma as the primary tool for wireframing and prototyping, along with Adobe software for graphic design."
     },
     {
       "role": "Digital Marketer",
       "duration": "June 2020 - June 2021",
       "company": "TheMentor",
       "company_url": "https://www.facebook.com/TheMentorOfficial/",
-      "description": "Responsible for Facebook page operation with over 2k organic followers and assisted the web development team to ensure the usability. Joined lots of meeting with team lead and client to discuss what the audiences need to improve the service."
+      "description": "Managed a Facebook page with over 2,000 organic followers and collaborated with the web development team to ensure usability. Participated in regular meetings with team leads and clients to understand audience needs and improve the service."
     },
     {
       "role": "Graphic Designer",
       "duration": "June 2019 - June 2020",
       "company": "Digi Green Kyoudai",
       "company_url": "",
-      "description": "Collaborated with management team to adjust the embedded messages for audiences and planned, scripted, and edited promotional videos in various topics. Mainly used Illustrator to design promotional posters and Premeire Pro for video editing."
+      "description": "Collaborated with the management team to tailor embedded messages for the target audience, and planned, scripted, and edited promotional videos on various topics. Primarily used Illustrator for designing promotional posters and Premiere Pro for video editing."
     }
   ],
   "highlights": [
