@@ -87,10 +87,16 @@
   "project_types":[
     "Mobile App", "Real Life", "Concept", "Web App", "Website", "Dashboard", "Imagery", "Illustration", "Flat", "Glassmorphism", "Neumorphism", "3D", "Minimalist", "Modern", "Playfull", "Professional", "Fancy", "Animation Rich", "Typography", "Micro Interaction", "Responsive"
   ],
-  "experiences":[
+  "experiences":[{
+      "role": "Senior UX/UI DEsigner",
+      "duration": "June 2024 - Present",
+      "company": "Hattha Bank",
+      "company_url": "https://www.hatthabank.com/",
+      "description": "Initiated design, handles feedbacks, and successfully delivered to development team on several design projects both Mobile and web application - Schedule Payment/Transfer, KHQR Dual Currency, Customer and Partner Management portal, and more."
+    },
     {
       "role": "Product Designer",
-      "duration": "January 2024 - Present",
+      "duration": "January 2024 - June 2024",
       "company": "SpringBoard4Education",
       "company_url": "https://www.springboard4education.com",
       "description": "Led several impactful design in EdTech, including the design of dynamic school landing page websites and an innovative university search web app with intuitive interfaces that streamlined information accessibility and enhanced user engagement."
