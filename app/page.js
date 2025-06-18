@@ -44,7 +44,7 @@ export default async function Home() {
         </section>
         <section className="about-section home-section">
           <CustomHeader header={"About Me"} subheader={"Get to know my story!"}/>
-          <p className="my-story max-w-3xl text-center">{info.story}</p>
+          <p className="my-story max-w-3xl text-center" dangerouslySetInnerHTML={{ __html: info.story }}></p>
           <StoryHighlights/>
         </section>
         <section className="work-experiences-section home-section">
