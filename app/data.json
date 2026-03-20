@@ -88,8 +88,15 @@
     "Mobile App", "Real Life", "Concept", "Web App", "Website", "Dashboard", "Imagery", "Illustration", "Flat", "Glassmorphism", "Neumorphism", "3D", "Minimalist", "Modern", "Playfull", "Professional", "Fancy", "Animation Rich", "Typography", "Micro Interaction", "Responsive"
   ],
   "experiences":[{
+      "role": "Product Manager",
+      "duration": "December 2025 - Present",
+      "company": "Everlast Information & Apps Dev",
+      "company_url": "https://www.linkedin.com/company/everlast-information-apps-dev/about/",
+      "description": "Drive the full digital lifecycle—from requirement gathering and UX/UI design to managing Dev/QA timelines. Specialized in launching and operating high-engagement online games and digital products that balance technical precision with user delight."
+    },
+    {
       "role": "Senior UX/UI Designer",
-      "duration": "June 2024 - Present",
+      "duration": "June 2024 - December 2025",
       "company": "Hattha Bank",
       "company_url": "https://www.hatthabank.com/",
       "description": "Initiated designs, handled feedback, and successfully delivered them to the development team for several mobile and web application projects — including Schedule Payment/Transfer, KHQR Dual Currency, Customer and Partner Management Portal, and more."
@@ -97,7 +104,7 @@
     {
       "role": "Product Designer",
       "duration": "January 2024 - June 2024",
-      "company": "SpringBoard4Education",
+      "company": "SpringBoard4Education Cambodia",
       "company_url": "https://www.springboard4education.com",
       "description": "Led several impactful design projects in EdTech, including dynamic school landing pages and an innovative university search web app with intuitive interfaces that streamlined information accessibility and enhanced user engagement."
     },
